@@ -7,3 +7,4 @@ pygithub
 
 # For the OSX build specific
 dmgbuild; sys_platform == 'darwin'
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
