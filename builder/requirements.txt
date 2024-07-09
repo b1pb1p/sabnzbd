@@ -7,3 +7,4 @@ pygithub
 
 # For the OSX build specific
 dmgbuild; sys_platform == 'darwin'
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
