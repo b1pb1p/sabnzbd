@@ -7,3 +7,4 @@ pygithub
 
 # For the OSX build specific
 dmgbuild; sys_platform == 'darwin'
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
